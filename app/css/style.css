@@ -340,4 +340,146 @@ template {
 [hidden] {
   display: none;
 }
+
+@font-face {
+  font-family: 'Arimo-Bold';
+  src: url("../fonts/Arimo-Bold/Arimo-Bold.eot");
+  src: url("../fonts/Arimo-Bold/Arimo-Bold.woff") format("woff"), url("../fonts/Arimo-Bold/Arimo-Bold.ttf") format("truetype"), url("../fonts/Arimo-Bold/Arimo-Bold.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'ChangaOne';
+  src: url("../fonts/ChangaOne/ChangaOne-Regular.eot");
+  src: url("../fonts/ChangaOne/ChangaOne-Regular.woff") format("woff"), url("../fonts/ChangaOne/ChangaOne-Regular.ttf") format("truetype"), url("../fonts/ChangaOne/ChangaOne-Regular.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  src: url("../fonts/Comfortaa/Comfortaa-Regular.eot");
+  src: url("../fonts/Comfortaa/Comfortaa-Regular.woff") format("woff"), url("../fonts/Comfortaa/Comfortaa-Regular.ttf") format("truetype"), url("../fonts/Comfortaa/Comfortaa-Regular.svg") format("svg");
+}
+
+body {
+  background: #ededed;
+  line-height: 1;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: #519194;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  padding: 20px 0 50px;
+}
+
+.footer {
+  height: 121px;
+  background-color: #519194;
+}
+
+.footer__wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__text {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ededed;
+  font-size: .8rem;
+  font-weight: 100;
+}
+
+.footer__text a {
+  color: #ededed;
+  text-decoration: none;
+  padding-left: 2px;
+}
+
+.footer__icons {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  background: #377a82;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 18px;
+  margin-right: 50px;
+  padding: 22px 20px;
+  width: 144px;
+}
+
+.footer__icons a {
+  background: url(/app/assets/images/icons.png) no-repeat;
+  display: block;
+  float: left;
+  height: 20px;
+  margin: 0 8px;
+  padding: 0;
+  text-indent: -99999px;
+  width: 20px;
+}
+
+.footer__icons #twitter {
+  background-position: 0 -32px;
+}
+
+.footer__icons #twitter:hover {
+  background-position: -25px -32px;
+}
+
+.footer__icons #facebook {
+  background-position: 0 -57px;
+}
+
+.footer__icons #facebook:hover {
+  background-position: -25px -57px;
+}
+
+.footer__icons #google {
+  background-position: 0 -82px;
+}
+
+.footer__icons #google:hover {
+  background-position: -25px -82px;
+}
+
+.footer__icons #pinterest {
+  background-position: 0 -107px;
+}
+
+.footer__icons #pinterest:hover {
+  background-position: -25px -107px;
+}
 /*# sourceMappingURL=style.css.map */

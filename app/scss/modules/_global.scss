@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Arimo-Bold';
+    src: url('../fonts/Arimo-Bold/Arimo-Bold.eot');
+    src: url('../fonts/Arimo-Bold/Arimo-Bold.woff') format('woff'), url('../fonts/Arimo-Bold/Arimo-Bold.ttf') format('truetype'), url('../fonts/Arimo-Bold/Arimo-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'ChangaOne';
+    src: url('../fonts/ChangaOne/ChangaOne-Regular.eot');
+    src: url('../fonts/ChangaOne/ChangaOne-Regular.woff') format('woff'), url('../fonts/ChangaOne/ChangaOne-Regular.ttf') format('truetype'), url('../fonts/ChangaOne/ChangaOne-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Comfortaa-Regular';
+    src: url('../fonts/Comfortaa/Comfortaa-Regular.eot');
+    src: url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype'), url('../fonts/Comfortaa/Comfortaa-Regular.svg') format('svg');
+}
+
+body {
+    background: $mainGrey;
+    line-height: 1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+}
