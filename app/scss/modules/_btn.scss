@@ -1,0 +1,31 @@
+.btn {
+    background-color: $logoBtn;
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    height: 30px;
+    letter-spacing: 0.05em;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+        color: #ccc;
+    }
+
+    &--selected {
+        background-color: $afterBtn;
+    }
+}
+
+// .btn:hover {
+//     color: #ccc;
+// }
+
+// .btn:focus {
+//     background-color: $afterBtn;
+// }
